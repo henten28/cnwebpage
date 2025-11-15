@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EN-COMPASS - Connected, safe, and reassured wherever you go</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Carousel Section (Desktops 1, 2, 3) - NO SCROLL -->
+    <section class="carousel-section" id="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <!-- Slide 1: Find Your Way -->
+                <div class="carousel-slide active" data-slide="1">
+                    <div class="slide-content">
+                        <div class="phone-mockup-group slide-1-layout">
+                            <div class="phone-mockup phone-left-large">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/b85d7e49d2a153d53d7126cae687bc2f4ee89e8b?width=1436" alt="App screenshot">
+                            </div>
+                            <div class="phone-mockup phone-right-small-offset">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/2f85a4a539d5896739b28b4ed9ff7f66b68917e3?width=738" alt="App screenshot">
+                            </div>
+                        </div>
+                        <h1 class="slide-title">FIND YOUR WAY</h1>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Connect With Your Friends -->
+                <div class="carousel-slide" data-slide="2">
+                    <div class="slide-content">
+                        <div class="phone-mockup-group">
+                            <div class="phone-mockup phone-left-small">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/ca47c497f8e6289657226ea9d374d3339cc0b7b7?width=738" alt="App screenshot">
+                            </div>
+                            <div class="phone-mockup phone-center-large">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/6905d921033ed6c6f9ae1f8d28d4bb0374216bbb?width=1436" alt="App screenshot">
+                            </div>
+                            <div class="phone-mockup phone-right-small">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/984d2a2ad1d8bf4cd0c42beb02771603a3ccd293?width=514" alt="App screenshot">
+                            </div>
+                        </div>
+                        <h1 class="slide-title">CONNECT WITH YOUR FRIENDS</h1>
+                    </div>
+                </div>
+
+                <!-- Slide 3: And Stay Safe -->
+                <div class="carousel-slide" data-slide="3">
+                    <div class="slide-content">
+                        <div class="phone-mockup-group">
+                            <div class="phone-mockup phone-left-small">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/cfbb550acdde5890b787da0ca463ec0fb28fea2d?width=738" alt="App screenshot">
+                            </div>
+                            <div class="phone-mockup phone-center-large">
+                                <img src="https://api.builder.io/api/v1/image/assets/TEMP/7e23f84a23ed0fa488d60de061d7c89ff8740d09?width=1000" alt="App screenshot">
+                            </div>
+                        </div>
+                        <h1 class="slide-title stay-safe">AND STAY SAFE!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation Arrows -->
+            <button class="carousel-nav carousel-prev" aria-label="Previous slide">
+                <svg width="56" height="15" viewBox="0 0 56 15" fill="none">
+                    <path d="M0.292892 8.07106C-0.0976295 7.68054 -0.0976295 7.04737 0.292892 6.65685L6.65685 0.292885C7.04738 -0.0976396 7.68054 -0.0976396 8.07107 0.292885C8.46159 0.683409 8.46159 1.31657 8.07107 1.7071L2.41422 7.36395L8.07107 13.0208C8.46159 13.4113 8.46159 14.0445 8.07107 14.435C7.68054 14.8255 7.04738 14.8255 6.65685 14.435L0.292892 8.07106ZM56 7.36395V8.36395L1 8.36395V7.36395V6.36395L56 6.36395V7.36395Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="carousel-nav carousel-next" aria-label="Next slide" id="carousel-next">
+                <svg width="56" height="15" viewBox="0 0 56 15" fill="none">
+                    <path d="M55.7071 8.07106C56.0976 7.68054 56.0976 7.04737 55.7071 6.65685L49.3431 0.292885C48.9526 -0.0976396 48.3195 -0.0976396 47.9289 0.292885C47.5384 0.683409 47.5384 1.31657 47.9289 1.7071L53.5858 7.36395L47.9289 13.0208C47.5384 13.4113 47.5384 14.0445 47.9289 14.435C48.3195 14.8255 48.9526 14.8255 49.3431 14.435L55.7071 8.07106ZM0 7.36395L0 8.36395L55 8.36395V7.36395V6.36395L0 6.36395L0 7.36395Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Desktop 4: Main Landing Page - SCROLLABLE -->
+    <main class="main-page" id="main-page" style="display: none;">
+        <!-- Header / Navigation -->
+        <header class="header">
+            <div class="header-container">
+                <h1 class="logo">EN-COMPASS</h1>
+                <nav class="nav">
+                    <a href="#about" class="nav-link">About us</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#use-cases" class="nav-link">Use Cases</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <button class="btn-secondary">Request a quote</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Connected, safe, and reassured wherever you go.</h2>
+                    <p class="hero-description">Encompass is a safety app that lets you share your live location with up to five trusted friends. 
+By- Chirag Sehgal, Jasjyot Singh Gulati, Dhruv Jaiswal, Akshat Patiyal and Sushen Tentiwal</p>
+                    <button class="btn-primary" id="watchVideoBtn">Watch the Demo Video</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://api.builder.io/api/v1/image/assets/TEMP/b5da8123205767a45a0b47f3d61042b65ba48276?width=1200" alt="3D path visualization">
+                </div>
+            </div>
+
+            <!-- Technology Logos -->
+            <div class="tech-logos">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/ad8cbc61129230132c5bdde931a12bca7a9701cb?width=344" alt="MongoDB" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/d6a696e284f0575015dfe4d096bb1010745af26c?width=380" alt="Vaadin" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/37c7615ed1faeeca1d78b7f944baf66fe6945408?width=406" alt="Java" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/999bc9512d497ef898917ceb90493ac756b512e7?width=600" alt="OpenStreetMap" class="tech-logo">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="services">
+            <div class="features-container">
+                <div class="features-header">
+                    <div class="section-badge">Features</div>
+                    <p class="features-description">With Encompass, your safety is our priority. We bring you thoughtful features that help you stay protected and in touch at all times, such as:</p>
+                </div>
+
+                <!-- Feature Cards Grid -->
+                <div class="feature-cards">
+                    <!-- Card 1: Live Location Sharing -->
+                    <div class="feature-card card-light">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label dark">Live Location</span>
+                                <span class="card-label dark">Sharing</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=538" alt="Live location illustration">
+                        </div>
+                    </div>
+
+                    <!-- Card 2: One-Tap SOS Alert -->
+                    <div class="feature-card card-dark">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label light">One-Tap SOS</span>
+                                <span class="card-label light">Alert</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=564" alt="SOS alert illustration">
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Encrypted Data -->
+                    <div class="feature-card card-darker">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label light">Encrypted Data</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=300" alt="Encryption illustration">
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Group Chat -->
+                    <div class="feature-card card-light">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label dark">Group</span>
+                                <span class="card-label dark">Chat</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=378" alt="Group chat illustration">
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Breadcrumb Trail -->
+                    <div class="feature-card card-white">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label blue">Breadcrumb</span>
+                                <span class="card-label blue">Trail</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=360" alt="Breadcrumb trail illustration">
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Github Link - HYPERLINKED -->
+                    <a href="https://github.com/yourusername/encompass" target="_blank" class="feature-card card-darker github-card">
+                        <div class="card-content">
+                            <div class="card-heading">
+                                <span class="card-label gray">Github</span>
+                                <span class="card-label gray">Link</span>
+                            </div>
+                        </div>
+                        <div class="card-illustration">
+                            <img src="https://api.builder.io/api/v1/image/assets/TEMP/a65f31ff1a8a99185e1845f46b36ed2be30a0536?width=374" alt="Github illustration">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Carousel Arrow -->
+        <div class="back-arrow" id="backToCarousel">
+            <svg width="56" height="15" viewBox="0 0 56 15" fill="none">
+                <path d="M0.292892 8.07106C-0.0976295 7.68054 -0.0976295 7.04737 0.292892 6.65685L6.65685 0.292885C7.04738 -0.0976396 7.68054 -0.0976396 8.07107 0.292885C8.46159 0.683409 8.46159 1.31657 8.07107 1.7071L2.41422 7.36395L8.07107 13.0208C8.46159 13.4113 8.46159 14.0445 8.07107 14.435C7.68054 14.8255 7.04738 14.8255 6.65685 14.435L0.292892 8.07106ZM56 7.36395V8.36395L1 8.36395V7.36395V6.36395L56 6.36395V7.36395Z" fill="white"/>
+            </svg>
+        </div>
+    </main>
+
+    <!-- Desktop 5: Video Page - NOT SCROLLABLE -->
+    <section class="video-page" id="video-page" style="display: none;">
+        <header class="header">
+            <div class="header-container">
+                <h1 class="logo">EN-COMPASS</h1>
+                <nav class="nav">
+                    <a href="#about" class="nav-link">About us</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#use-cases" class="nav-link">Use Cases</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <button class="btn-secondary">Request a quote</button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="video-content">
+            <h2 class="video-title">Learn how to operate the application</h2>
+            <div class="video-wrapper">
+                <div class="video-placeholder">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="white" opacity="0.2"/>
+                        <path d="M40 30L70 50L40 70V30Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Technology Logos -->
+            <div class="tech-logos">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/ad8cbc61129230132c5bdde931a12bca7a9701cb?width=344" alt="MongoDB" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/d6a696e284f0575015dfe4d096bb1010745af26c?width=380" alt="Vaadin" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/37c7615ed1faeeca1d78b7f944baf66fe6945408?width=406" alt="Java" class="tech-logo">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/999bc9512d497ef898917ceb90493ac756b512e7?width=600" alt="OpenStreetMap" class="tech-logo">
+            </div>
+        </div>
+
+        <!-- Return to Main Page Arrow -->
+        <div class="back-arrow" id="backToMain">
+            <svg width="56" height="15" viewBox="0 0 56 15" fill="none">
+                <path d="M0.292892 8.07106C-0.0976295 7.68054 -0.0976295 7.04737 0.292892 6.65685L6.65685 0.292885C7.04738 -0.0976396 7.68054 -0.0976396 8.07107 0.292885C8.46159 0.683409 8.46159 1.31657 8.07107 1.7071L2.41422 7.36395L8.07107 13.0208C8.46159 13.4113 8.46159 14.0445 8.07107 14.435C7.68054 14.8255 7.04738 14.8255 6.65685 14.435L0.292892 8.07106ZM56 7.36395V8.36395L1 8.36395V7.36395V6.36395L56 6.36395V7.36395Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
